@@ -1,8 +1,13 @@
-<!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:7c4dff,100:00e5b0&height=220&section=header&text=Aviya%20Singh&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Software%20Engineer%20%7C%20Backend%20%26%20AI%2FML%20Engineer%20%7C%20Palo%20Alto%2C%20CA&descAlignY=56&descSize=16&descColor=c9b0ff" width="100%"/>
+<!-- Header Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d2b,50:7c4dff,100:00e5b0&height=200&section=header&text=Aviya%20Singh&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20%7C%20AI%20%26%20ML&descAlignY=58&descSize=18&descColor=c9b0ff" width="100%"/>
+
+<br/>
+
+<h1 align="center">👩‍💻 Aviya Singh</h1>
+<h3 align="center">Software Engineer · Backend · AI/ML · Palo Alto, CA</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=A076FF&center=true&vCenter=true&width=700&height=50&lines=👩‍💻+Software+Engineer+%40+GEICO;🐍+Python+%7C+React+%7C+TypeScript;🤖+AI+%2F+ML+%7C+LLMs+%7C+RAG+Pipelines;☁️+Backend+%7C+Cloud+%7C+DevOps;✨+9%2B+Years+Building+at+Scale" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=A076FF&center=true&vCenter=true&width=650&height=45&lines=Software+Engineer+%40+GEICO+%F0%9F%8F%A2;Python+%7C+React+%7C+TypeScript+%F0%9F%90%8D;AI+%2F+ML+%7C+LLMs+%7C+RAG+Pipelines+%F0%9F%A4%96;Backend+%7C+Cloud+%7C+DevOps+%E2%98%81%EF%B8%8F;9%2B+Years+Building+at+Scale+%E2%9C%A8" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -17,22 +22,35 @@
 
 ---
 
-## 👩‍💻 About Me
+## 🤖 About Me
 
 ```python
-class AviyaSingh:
-    name       = "Aviya Singh"
-    role       = "Software Engineer @ GEICO"
-    location   = "Palo Alto, California 🌉"
-    education  = "MS Computer Science — Cal State Fullerton"
-    experience = "9+ years"
-    
-    focus = [
-        "Backend Engineering (Python, asyncio, REST APIs)",
-        "AI/ML Integration (LLMs, RAG, PII Detection)",
-        "Full-Stack Development (React + TypeScript)",
-        "Cloud Infrastructure (AWS, Azure, Terraform)",
-    ]
+from ai import LLM, RAG, VectorDB
+from backend import Python, FastAPI, asyncio
+from cloud import AWS, Azure, Terraform
+
+class AviyaSingh(SoftwareEngineer):
+
+    def __init__(self):
+        self.name        = "Aviya Singh"
+        self.role        = "Software Engineer @ GEICO"
+        self.location    = "Palo Alto, California 🌉"
+        self.education   = "MS Computer Science — Cal State Fullerton"
+        self.experience  = "9+ years"
+
+        self.languages   = ["Python 🐍", "TypeScript", "SQL", "Bash", "C"]
+        self.ai_stack    = [LLM("GPT-4"), RAG(), VectorDB("Pinecone"), "LangChain"]
+        self.backend     = [Python, FastAPI, asyncio, "REST APIs", "Microservices"]
+        self.cloud       = [AWS, Azure, Terraform, "Ansible", "Jenkins"]
+        self.frontend    = ["React", "TypeScript", "RBAC Dashboards"]
+
+    def current_mission(self):
+        return [
+            "🛡️  Building AI-powered PII detection across 24+ microservices",
+            "📊  React + TypeScript compliance dashboard (90% audit reduction)",
+            "🤖  LLM-based DevOps automation with Azure DevOps APIs",
+            "🧪  Exploring RAG pipelines & vector search at CSUF",
+        ]
 
     def say_hi(self):
         print("Thanks for stopping by! Let's build something amazing 🚀")
@@ -48,8 +66,8 @@ class AviyaSingh:
 <tr>
 <td width="50%">
 
-🛡️ &nbsp;**Enterprise AI Systems**
-Build PII detection platforms, compliance automation and LLM-powered pipelines at scale
+🤖 &nbsp;**AI & ML Engineering**
+LLM pipelines, RAG architecture, PII detection and compliance automation at enterprise scale
 
 ⚡ &nbsp;**Backend Engineering**
 High-performance Python services with asyncio, REST APIs and microservice architecture
@@ -58,7 +76,7 @@ High-performance Python services with asyncio, REST APIs and microservice archit
 <td width="50%">
 
 🎨 &nbsp;**Full-Stack Products**
-React + TypeScript dashboards with RBAC, audit exports and real-time data
+React + TypeScript dashboards with RBAC, audit exports and real-time compliance data
 
 ☁️ &nbsp;**Cloud & DevOps**
 CI/CD pipelines, IaC with Terraform & Ansible across AWS and Azure
@@ -133,10 +151,10 @@ CI/CD pipelines, IaC with Terraform & Ansible across AWS and Azure
 
 | 🏗️ Project | 🛠️ Stack | 💡 Impact |
 |------------|----------|-----------|
-| 🛡️ **Enterprise PII Detection Platform** | Python · asyncio · Grafana Loki | Scans 24+ microservices, auto-classifies SSN, DOB, VIN, DL |
+| 🛡️ **Enterprise PII Detection Platform** | Python · asyncio · Grafana Loki | Scans 24+ microservices, auto-classifies SSN / DOB / VIN / DL |
 | 📊 **React Compliance Dashboard** | React · TypeScript · RBAC | Reduced manual security audits by **90%** |
-| 🤖 **DevOps Automation Suite** | Python · Azure DevOps APIs | App decommissioning from multi-hour → single run |
-| 🧪 **AI/ML Experiments** | LangChain · RAG · Vector DBs | Cloud-native AI systems (MS CS project @ CSUF) |
+| 🤖 **DevOps Automation Suite** | Python · Azure DevOps APIs | App decommissioning: multi-hour → single run |
+| 🧪 **AI/ML Experiments** | LangChain · RAG · Vector DBs | Cloud-native AI systems (MS CS @ CSUF) |
 
 <br/>
 
@@ -146,19 +164,19 @@ CI/CD pipelines, IaC with Terraform & Ansible across AWS and Azure
 
 <table>
 <tr>
-  <td align="center" width="80"><b>🧠</b></td>
+  <td align="center" width="60"><b>🧠</b></td>
   <td><b>Software Engineer</b> — <b>GEICO</b> · Palo Alto, CA · <i>Jul 2024 – Present</i><br/>
-  <sub>AI-powered PII detection · React dashboard · Azure DevOps automation · 90% audit reduction</sub></td>
+  <sub>AI-powered PII detection · React compliance dashboard · Azure DevOps automation · 90% audit reduction</sub></td>
 </tr>
 <tr>
   <td align="center"><b>⚙️</b></td>
   <td><b>Associate Staff Engineer</b> — <b>Nagarro</b> · <i>May 2022 – Feb 2023</i><br/>
-  <sub>Cloud migration · CI/CD pipelines · Data migration: 4 days → 3 hours · Terraform mentorship</sub></td>
+  <sub>Cloud migration CI/CD · Azure DevOps pipelines · Data migration: 4 days → 3 hours · Terraform mentorship</sub></td>
 </tr>
 <tr>
   <td align="center"><b>💻</b></td>
   <td><b>Senior Software Engineer</b> — <b>Accenture Technologies</b> · <i>Oct 2019 – May 2022</i><br/>
-  <sub>Jenkins + Azure CI/CD · Terraform IaC · Security scanning · Telecom client automation</sub></td>
+  <sub>Jenkins + Azure CI/CD · Terraform IaC · Security scanning integration · Telecom automation</sub></td>
 </tr>
 <tr>
   <td align="center"><b>🔧</b></td>
@@ -174,45 +192,32 @@ CI/CD pipelines, IaC with Terraform & Ansible across AWS and Azure
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Aviya-Singh&show_icons=true&theme=tokyo-night&hide_border=true&count_private=true&bg_color=0d0d2b&title_color=a076ff&icon_color=00e5b0&text_color=c9b0ff" height="180"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aviya-Singh&layout=compact&theme=tokyo-night&hide_border=true&bg_color=0d0d2b&title_color=a076ff&text_color=c9b0ff" height="180"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Aviya-Singh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aviya-Singh&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Aviya-Singh&theme=tokyo-night&hide_border=true&background=0d0d2b&ring=a076ff&fire=00e5b0&currStreakLabel=c9b0ff" width="60%"/>
+  <img width="60%" src="https://streak-stats.demolab.com?user=Aviya-Singh&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
 ## 📈 Contribution Graph
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aviya-Singh&theme=tokyo-night&hide_border=true&area=true&area_color=7c4dff&line=00e5b0&point=a076ff&bg_color=0d0d2b" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aviya-Singh&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 ---
 
 ## 🎓 Education
 
-<table>
-<tr>
-  <td>🎓</td>
-  <td><b>MS Computer Science</b> — California State University, Fullerton</td>
-  <td><i>Jan 2024 – May 2025</i></td>
-</tr>
-<tr>
-  <td>🎓</td>
-  <td><b>BTech Information Systems</b> — Dr. APJ Abdul Kalam Technical University</td>
-  <td><i>2013 – 2017</i></td>
-</tr>
-</table>
+| 🎓 | Degree | Institution | Year |
+|----|--------|-------------|------|
+| 🏛️ | **MS Computer Science** | California State University, Fullerton | 2024 – 2025 |
+| 🏛️ | **BTech Information Systems** | Dr. APJ Abdul Kalam Technical University | 2013 – 2017 |
 
 <br/>
 
 ---
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
-</p>
-
-<!-- Footer -->
+<!-- Footer Wave -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5b0,50:7c4dff,100:0d0d2b&height=120&section=footer" width="100%"/>
